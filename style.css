@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'poppins', sans-serif;
+}
+body{
+    background: url('homedecor.jpg');
+    background-size: cover;
+}
+.heading{
+    display: flex;
+    align-items: center;
+    
+}
+.logo img{
+    height: 130px;
+    width: 170px;
+    z-index: 0;
+    margin-top: 50px;
+}
+h2{
+    font-size: 50px;
+    z-index: 1;
+    margin-top: 50px;
+    margin-left: -50px;
+}
+.heading button{
+    height: 40px;
+    width: 150px;
+    margin-top: 50px;
+    font-size: 17px;
+    background-color: rgb(103, 52, 243);
+    color: white;
+    border: none;
+    position: absolute;
+    right: 100px;
+}
+.para{
+    margin-top: 85px;
+    margin-left: 100px;
+}
+.para h1{
+    font-size: 63px;
+}
+.para p{
+    font-size: 20px;
+}
+.social-media{
+    margin-top: 50px;
+    margin-left: 115px;
+}
+.social-media i{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border: 2px solid black;
+    margin: 20px;
+    color: black;
+    font-size: 2.5rem;
+    background: transparent;
+}
+.contact{
+    height: 25px;
+    width: 150px;
+    font-size: 16px;
+    display: flex;
+    position: absolute;
+    right: 30px;
+}
+.contact i{
+    margin-right: 10px;
+}
